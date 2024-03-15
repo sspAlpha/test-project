@@ -32,6 +32,9 @@
   "dependencies": {
     "@apollo/client": "^3.7.1",
     "@sitecore-jss/sitecore-jss-react": "~21.6.4",
+    "@types/node": "^20.11.28",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
     "axios": "^1.2.0",
     "bootstrap": "^5.2.3",
     "cross-fetch": "^3.1.5",
@@ -46,7 +49,8 @@
     "react-i18next": "~12.0.0",
     "react-router-dom": "~6.4.4",
     "react-scripts": "~5.0.1",
-    "serialize-javascript": "^6.0.0"
+    "serialize-javascript": "^6.0.0",
+    "typescript": "^5.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",

@@ -25,7 +25,7 @@ if (!/^[A-Z][A-Za-z0-9-]+$/.test(componentName)) {
 }
 
 const componentManifestDefinitionsPath = 'sitecore/definitions/components';
-const componentRootPath = 'src/components';
+const componentRootPath = `src/components/${componentName}/`;
 
 let manifestOutputPath = null;
 
@@ -97,7 +97,7 @@ const ${exportVarName} = (props) => (
 export default ${exportVarName};
 `;
 
-    const outputFilePath = path.join(componentRootPath, `${componentName}.js`);
+    const outputFilePath = path.join(componentRootPath, 'index.tsx');
 
     return scaffoldFile(outputFilePath, componentTemplate);
 }
