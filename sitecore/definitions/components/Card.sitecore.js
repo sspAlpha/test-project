@@ -4,7 +4,6 @@ import {
     SitecoreIcon,
     Manifest,
 } from '@sitecore-jss/sitecore-jss-dev-tools';
-import { RichText } from '@sitecore-jss/sitecore-jss-react';
 
 /**
  * Adds the Card component to the disconnected manifest.
