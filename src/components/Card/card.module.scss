@@ -1,0 +1,23 @@
+.card {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 8rem auto;
+    max-width: 90%;
+    width: 100%;
+
+    .cardWrapper {
+        background-color: #efefef;
+        border-radius: 1.2rem;
+        max-width: 50rem;
+        min-width: 28rem;
+        padding: 3rem;
+        width: 100%;
+
+        h3,
+        p {
+            text-align: center;
+        }
+    }
+}
+

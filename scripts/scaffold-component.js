@@ -97,7 +97,7 @@ const ${exportVarName} = (props) => (
 export default ${exportVarName};
 `;
 
-    const outputFilePath = path.join(componentRootPath, 'index.tsx');
+    const outputFilePath = path.join(componentRootPath, componentName);
 
     return scaffoldFile(outputFilePath, componentTemplate);
 }

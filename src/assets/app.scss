@@ -1,0 +1,82 @@
+a[target='_blank']:after {
+    content: '\1F5D7';
+}
+
+/*
+  Hides Sitecore Experience Editor markup,
+  if you run the app in connected mode while the Sitecore cookies
+  are set to edit mode.
+*/
+.scChromeData,
+.scpm {
+    display: none !important;
+}
+
+/* 
+  Style for default content block
+*/
+.contentTitle {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+html {
+    font-size: 10px; //sets base font-size to multiple of 10 for REM
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5.5rem;
+    line-height: 6.5rem;
+}
+
+h2 {
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+h5 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+h6 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+}
+
+p,
+a,
+span {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}

@@ -32,12 +32,14 @@
   "dependencies": {
     "@apollo/client": "^3.7.1",
     "@sitecore-jss/sitecore-jss-react": "~21.6.4",
+    "@storybook/addon-styling-webpack": "^0.0.6",
     "@types/node": "^20.11.28",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "axios": "^1.2.0",
     "bootstrap": "^5.2.3",
     "cross-fetch": "^3.1.5",
+    "dart-sass": "^1.25.0",
     "deep-equal": "^2.1.0",
     "graphql": "~16.8.1",
     "graphql-tag": "~2.12.6",
@@ -49,6 +51,7 @@
     "react-i18next": "~12.0.0",
     "react-router-dom": "~6.4.4",
     "react-scripts": "~5.0.1",
+    "sass": "^1.72.0",
     "serialize-javascript": "^6.0.0",
     "typescript": "^4.9.5"
   },
